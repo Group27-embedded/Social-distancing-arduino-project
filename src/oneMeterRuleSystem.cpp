@@ -18,12 +18,12 @@ System::System(int r,int b , int g , int echo , int trig , int buzz){
   echoPin = echo ;//initialize   private variable echoPin
   trigPin =  trig;//initialize   private variable trigPin
   buzzPin=  buzz;//initialize   private variable buzzPin
-pinMode(red  , OUTPUT);
- pinMode(blue  , OUTPUT);
-  pinMode(green  , OUTPUT);
-   pinMode(echoPin , INPUT);
-  pinMode(trigPin , OUTPUT);
-  pinMode(buzzPin , OUTPUT);
+pinMode(red  , OUTPUT); //configure variable red as output
+ pinMode(blue  , OUTPUT);//configure variable blue as output
+  pinMode(green  , OUTPUT);//configure variable green as output
+   pinMode(echoPin , INPUT);//configure variable echoPin as output
+  pinMode(trigPin , OUTPUT);//configure variable trigPin as output
+  pinMode(buzzPin , OUTPUT);//configure variable buzzPin as output
   
 }
 //method definition
